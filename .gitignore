@@ -58,6 +58,9 @@ artifacts/
 *.sbr
 *.tlb
 *.tli
+*.vcxproj.filters
+*.sln
+*.vcxproj
 *.tlh
 *.tmp
 *.tmp_proj

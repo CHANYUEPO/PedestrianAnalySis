@@ -14,4 +14,62 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MultiTackerManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ffttools.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fhog.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kcftracker.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="labdata.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="recttools.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tracker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetTrackerAlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="objdector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectDetector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fhog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kcftracker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTackerManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetTrackerAlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectDector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

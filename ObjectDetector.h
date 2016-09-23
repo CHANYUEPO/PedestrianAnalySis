@@ -1,6 +1,6 @@
 #pragma once
-#include "objdector.h"
-class ObjectDetector :public objdector
+#include "objdetector.h"
+class ObjectDetector :public objdetector
 {
 public:
 	ObjectDetector();

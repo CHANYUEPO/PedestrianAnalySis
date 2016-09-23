@@ -1,9 +1,9 @@
 #pragma once
 #include <opencv2/opencv.hpp>
-class objdector
+class objdetector
 {
 public:
-	objdector() {}
-	virtual ~objdector() {}
+	objdetector() {}
+	virtual ~objdetector() {}
 	virtual void  detect(const cv::Mat & frame, std::vector<cv::Rect>& box) {}
 };
